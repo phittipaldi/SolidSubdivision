@@ -13,4 +13,4 @@ Some things to consider when adding new content:
 * If the entry has references to known authors or sources, please include them as a link (in the case of a book, please add reference(s) to where it can be bought)
 * We still don't know how to handle multiple language references on each entry (suggestions welcome)
 
-Made with love by people who love sharing knowledge
+Made with love by people who love sharing knowledge :laughing:
