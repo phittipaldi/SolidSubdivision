@@ -5,10 +5,18 @@
 //It's still all at the global level, I know it can be improved.
 
 var fs = require('fs'),
+    twitterAPI = require('node-twitter-api'),
     files = fs.readdirSync('../content/'),
     fileIterator,
     currentFile,
     entries = [];
+
+//TODO: How can we set these values on a config file that's not tracked by git?
+var twitter = new twitterAPI({
+    consumerKey: '',
+    consumerSecret: ''
+});
+
 
 function getFirstLineFromMd(filename, callback) {
     fs.readFile(filename, function (err, data) {
@@ -28,10 +36,27 @@ function getFirstLineFromMd(filename, callback) {
     });
 }
 
-function addEntryToIndex(fileName){
+function addEntryToIndex(fileName) {
     getFirstLineFromMd('../content/' + fileName, function (err, text) {
         console.log("adding to index: " + text);
-        entries.push({file: fileName, content: text});
+        entries.push({
+            file: fileName,
+            content: text
+        });
+    });
+}
+
+function postToTimeline(message, url){
+    twitter.statuses("update", {
+        status: message
+    },
+    '1888546812-WNwEwWmHyhmCEqIohyxsEUnkIHCkrHMao4VIrsp',
+    '3pET7j3MSY6G4AwaV43KZYCIi45F3iNJwqBHGXaR8', function (error, data, response) {
+        if (error) {
+            console.log('Error: ' + error);
+        } else {
+            console.log(response);
+        }
     });
 }
 
