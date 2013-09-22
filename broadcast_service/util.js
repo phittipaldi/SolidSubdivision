@@ -1,3 +1,4 @@
+var fs = require('fs');
 
 exports.getFirstLineFromMd = function(filename, callback) {
     fs.readFile(filename, function (err, data) {
