@@ -1,6 +1,8 @@
 Define a code style convention. Specially if you work with a team. 
 ==================================================================
 
+Be consistent with other people already working on your codebase.
+
 [Naming Conventions are awesome](http://en.wikipedia.org/wiki/Naming_convention_(programming\)). They establish order, improve readability, and help teams be more productive. 
 
 Either if you decide to work alone or as a part of a team, adherence to code style conventions will make you a better programmer. 
@@ -41,3 +43,7 @@ _Some popular programming languages and their general styles:_
     * [MSDN Visual Basic Conventions](http://msdn.microsoft.com/en-us/library/0b283bse.aspx)
 
     
+_References_
+
+* [Stack Overflow - Is coding standard important?](http://stackoverflow.com/questions/1962649/is-coding-standard-very-important-for-every-program-a-developer-writes)
+* [5 Reasons code standards are essential](http://www.maltblue.com/software-engineering-2/5-reaons-coding-standards-are-essential)
