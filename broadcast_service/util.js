@@ -2,10 +2,7 @@ var fs = require('fs');
 
 exports.getFirstLineFromMd = function(filename, callback) {
     fs.readFile(filename, function (err, data) {
-        if (err) {
-            throw err;
-            //TODO: Is there another way to do this?
-        }
+        if (err) return callback(err); // Yes there is :P
 
         // Data is a buffer that we need to convert to a string
         // Improvement: loop over the buffer and stop when the line is reached
