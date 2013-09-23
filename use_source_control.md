@@ -32,12 +32,10 @@ _Tutorials for specific Version Control Systems:_
 
 * Mercurial
     * [Joel Spolsky's into to Mercurial](http://hginit.com/)
-
 * Git
     * [Github/Code School's Try git - Interactive Tutorial](http://try.github.com/)
     * [git-scm Official Documentation](http://git-scm.com/documentation)
     * [git GUI clients](http://git-scm.com/downloads/guis)
-
 * Subversion
     * [Red Bean: Version Control with Subversion](http://svnbook.red-bean.com/index.en.html)
     * [Tortoise SVN: Basic VC Concepts](http://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-basics.html)
