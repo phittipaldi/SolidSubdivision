@@ -11,8 +11,9 @@ We post entries using a simple node.js script that can be found here: https://tw
 
 Some things to consider when adding new content:
 
-* Every entry needs to contain a short description. The first line of the .md file is the content of the tweet. 
+* Every entry needs to contain a short description. The first line of the .md file is the content we will send out in each tweet. 
 * Every entry must have at least a paragraph explaining the best practice. The content needs to be a MarkDown file. This simplifies hosting, and the MD syntax allows for code examples with ease
+* For now, entries should be language agnostic. If you need to write code, do it in the language you feel most comfortable with, but try to add an example that can be applicable to other technologies as well. 
 * If the entry has references to known authors or sources, please include them as a link (in the case of a book, please add reference(s) to where it can be bought)
 * We still don't know how to handle multiple language references on each entry (suggestions welcome)
 
