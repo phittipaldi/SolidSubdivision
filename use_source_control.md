@@ -3,7 +3,7 @@ Use Source Control. Even when programming solo.
 
 If you've ever worked with a team of two or more developers you would know that not using source control is a nightmare: The complexity or merging files grows exponentially as the number of people in the team increases. 
 
-You should **ALWAYS** use source control, even if only working with yourself. Here's a couple of reasons:
+You should [**ALWAYS** use source control](http://whyshouldiuse.com/source-control), even if only working with yourself. Here's a couple of reasons:
 
 * It's an undo mechanism
 * It's a historical archive
