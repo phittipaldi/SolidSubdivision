@@ -1,5 +1,5 @@
 Don't comment old code, just delete it. 
-=======================================
+------------
 
 You're working on the team project and suddenly come accross with something like this:
 

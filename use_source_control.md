@@ -1,5 +1,5 @@
 Use Source Control. Even when programming solo.
---------------
+------------
 
 If you've ever worked with a team of two or more developers you would know that not using source control is a nightmare: The complexity or merging files grows exponentially as the number of people in the team increases. 
 

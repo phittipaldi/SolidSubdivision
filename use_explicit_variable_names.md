@@ -1,5 +1,5 @@
 Use explicit variable names
-============================
+------------
 
 Setting up variable names like 'i' or 'temp' is bad code. It hampers readability for other members of your programming team. 
 

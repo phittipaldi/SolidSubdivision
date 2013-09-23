@@ -1,5 +1,5 @@
 Define a code style convention. Specially if you work with a team. 
-==================================================================
+------------
 
 Be consistent with other people already working on your codebase.
 
