@@ -1,11 +1,12 @@
+/*jslint browser: false, nomen: true, sloppy: true*/
+/*global require, console, exports*/
+
 var fs = require('fs');
 
-exports.getFirstLineFromMd = function(filename, callback) {
+exports.getFirstLineFromMd = function (filename, callback) {
     fs.readFile(filename, function (err, data) {
-        if (err) return callback(err); // Yes there is :P
-
-        // Data is a buffer that we need to convert to a string
-        // Improvement: loop over the buffer and stop when the line is reached
+        if (err) return callback(err);
+        
         var lines = data.toString('utf-8').split("\n");
 
         if (lines.length === 0) {
@@ -13,4 +14,4 @@ exports.getFirstLineFromMd = function(filename, callback) {
         }
         callback(null, lines[0]);
     });
-}
+};

@@ -1,3 +1,6 @@
+/*jslint browser: false, nomen: true, sloppy: true*/
+/*global require, console, exports*/
+
 var TwitterAPI = require('node-twitter-api');
 
 //TODO: How can we set these values on a config file that's not tracked by git?
@@ -6,7 +9,7 @@ var twitter = new TwitterAPI({
     consumerSecret: ''
 });
 
-exports.postToTimeline = function(message, url) {
+exports.postToTimeline = function (message, url) {
     twitter.statuses("update", {
         status: message
     },
@@ -18,4 +21,4 @@ exports.postToTimeline = function(message, url) {
                 console.log(response);
             }
         });
-}
+};

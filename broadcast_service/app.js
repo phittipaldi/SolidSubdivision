@@ -4,14 +4,14 @@
 //TODO: Eduardo, I still don't know the best way to organize all objects (inside a IIFE, inside a module, a literal, etc.)
 //It's still all at the global level, I know it can be improved.
 
-var fs = require('fs'),
-    util = require('./util'),
-    twitterHelpers = require('./twitter-helpers'),
-    contentDirectory = '../content/',
-    files = fs.readdirSync(contentDirectory),
-    fileIterator,
-    currentFile,
-    entries = [];
+var fs = require('fs');
+var util = require('./util');
+var twitterHelpers = require('./twitter-helpers');
+var contentDirectory = '../content/';
+var files = fs.readdirSync(contentDirectory);
+var fileIterator;
+var currentFile;
+var entries = [];
 
 function addEntryToIndex(fileName) {
     util.getFirstLineFromMd(contentDirectory + fileName, function (err, text) {
