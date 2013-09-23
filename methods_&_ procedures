@@ -1,7 +1,7 @@
-Define a good name for your methods or procedures
+Define a code style convention. Specially if you work with a team. 
 ------------
 
-A good name should be the one who describe the role of the method or procedure.
+Be consistent with other people already working on your codebase.
 
 [Naming Conventions are awesome](http://en.wikipedia.org/wiki/Naming_convention_(programming\)). They establish order, improve readability, and help teams be more productive. 
 
