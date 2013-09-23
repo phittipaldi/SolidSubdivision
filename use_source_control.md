@@ -25,6 +25,7 @@ _About Source Control:_
 * [What Is Git & Why You Should Use Version Control If You’re a Developer](http://www.makeuseof.com/tag/git-version-control-youre-developer/)
 * [Getting Started - About Version Control](http://git-scm.com/book/en/Getting-Started-About-Version-Control)
 * [A Visual Guide to Version Control](http://betterexplained.com/articles/a-visual-guide-to-version-control/)
+* [Stack Overflow: Why should I use Source Control](http://stackoverflow.com/questions/1408450/why-should-i-use-version-control)
 * [Programmers Exhange: My boss is afraid of Source Control](http://programmers.stackexchange.com/questions/123059/boss-is-afraid-to-use-a-version-control-system-for-new-project-should-i-anyway)
 
 
