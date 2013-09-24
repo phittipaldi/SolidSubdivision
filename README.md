@@ -17,6 +17,8 @@ Some things to consider when adding new content:
 * If the entry has references to known authors or sources, please include them as a link (in the case of a book, please add reference(s) to where it can be bought)
 * We still don't know how to handle multiple language references on each entry (suggestions welcome)
 
+Don't know where to start? check out the wiki for [some entry ideas!](https://github.com/amhed/SolidSubdivision/wiki/Entry-Ideas)
+
 **Current Goals:**
 
 * Contribute at least 30 entries to the project before turning on the twitter bot
