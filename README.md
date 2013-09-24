@@ -24,5 +24,6 @@ Don't know where to start? check out the wiki for [some entry ideas!](https://gi
 * Contribute at least 30 entries to the project before turning on the twitter bot
 * Find collaborators willing to moderate pull requests
 * Spread the word with fellow devs
+* Find a better name :neutral_face:
 
 Made with love by people who love sharing knowledge :laughing:
