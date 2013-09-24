@@ -1,9 +1,9 @@
 Solid Subdivision
 =============================
 
-This repository holds a compilation of crowdsource software development best practices. 
+This repository holds a compilation of crowdsource software development best practices. Each .md file holds a snippet of knowledge that describes a behavior marked as a best practices by the programming community. 
 
-All content is mantained by independent developers that wish to contribute knowledge to the community. Everyone is welcome to add, improve, and discuss all entries. 
+All content is mantained by independent developers that wish to contribute. Everyone is welcome to add, improve, and discuss all entries. 
 
 We've automated a twitter account ([@SolidSubdiv](https://twitter.com/SolidSubdiv)) to post a random short entry every 12 hours. This way devs that do not contribute to the repository can still benefit from the compounded knowledge of the community. 
 
