@@ -14,4 +14,6 @@ Define a good name for your methods or procedures
 
 _References_
 
+* [Function and Method Naming Standards] (http://www.igloocoder.com/2009/function-and-method-naming-standards)
+
 * [camelCase - PascalCase vs. CamelCase - pascalCase](http://www.dofactory.com/topic/1141/camelcase-pascalcase-vs-camelcase-pascalcase.aspx)
