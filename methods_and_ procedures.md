@@ -9,7 +9,7 @@ Define a good name for your methods or procedures
 
 * Never use generic names for name a method or procedure. For example: "manage" or "customerProcess".
 
-* Is recommended to use style convention for name a method or procedure, lets use CamelCase or PascalCase, the one you prefer. 
+* Is recommended to use style convention, lets use CamelCase or PascalCase, the one you prefer. 
 
 
 _References_
