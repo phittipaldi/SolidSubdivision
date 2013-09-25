@@ -15,4 +15,3 @@ Define a good name for your methods or procedures
 _References_
 
 * [camelCase - PascalCase vs. CamelCase - pascalCase](http://www.dofactory.com/topic/1141/camelcase-pascalcase-vs-camelcase-pascalcase.aspx)
-* [5 Reasons code standards are essential](http://www.maltblue.com/software-engineering-2/5-reaons-coding-standards-are-essential)
