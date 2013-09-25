@@ -7,7 +7,7 @@ All content is mantained by independent developers that wish to contribute. Ever
 
 We've automated a twitter account ([@SolidSubdiv](https://twitter.com/SolidSubdiv)) to post a random short entry every 12 hours. This way devs that do not contribute to the repository can still benefit from the compounded knowledge of the community. 
 
-We post entries using a simple node.js script that can be found here: https://twitter.com/SolidSubdiv-Service
+We post entries using a simple node.js script that can be found here: https://github.com/amhed/SolidSubdivision-Service
 
 Some things to consider when adding new content:
 
