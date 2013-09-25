@@ -47,3 +47,4 @@ _References_
 
 * [Stack Overflow - Is coding standard important?](http://stackoverflow.com/questions/1962649/is-coding-standard-very-important-for-every-program-a-developer-writes)
 * [5 Reasons code standards are essential](http://www.maltblue.com/software-engineering-2/5-reaons-coding-standards-are-essential)
+* [Scala] (http://docs.scala-lang.org/style/naming-conventions.html)
