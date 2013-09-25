@@ -1,19 +1,21 @@
-Define a good name for your methods or procedures
+Use explicit names for your methods and procedures
 ------------
 
-* A good name should be the one who describe the role of the method or procedure.
+* A good name should describe the real purpose of the method or procedure.
 
-* For those methods that doesn't return any value ("procedure"), let's name it with a verb. For example:  "calculateTax" or  "makePizza".
+* Methods that don't return any values, should be named with a verb. e.g. "calculateTax" or  "makePizza".
 
-* For those who return value, its recommend it to use a word that describe the object or value it  return by the method. For example: "isActive" or "getCustomer".
+* Methods that DO return values, should use sentences that describe the object or value to be returned. e.g.: "isActive" or "getCustomer". 
 
-* Never use generic names for name a method or procedure. For example: "manage" or "customerProcess".
+* Learn the code conventions of the language you're using. To name a few examples:
+    * Ruby convention appends a `?` on methods that return boolean.
+    * Javascript convention dictates all methods use camelCase, unless you're declaring a constructor
+    * Python convention dictates that any method named `__likeThisOne__` is usually something that's part of the core framework and shouldn't be overwritten
 
-* Is recommended to use style convention, lets use CamelCase or PascalCase, the one you prefer. 
+* Never use generic names. "manage" or "customerProcess" are awful names; someone reading the code the first time will have no idea what the method does on a first glance. 
 
 
 _References_
 
-* [Function and Method Naming Standards] (http://www.igloocoder.com/2009/function-and-method-naming-standards)
-
-* [camelCase - PascalCase vs. CamelCase - pascalCase](http://www.dofactory.com/topic/1141/camelcase-pascalcase-vs-camelcase-pascalcase.aspx)
+* [Function and Method Naming Standards](http://www.igloocoder.com/2009/function-and-method-naming-standards)
+* [Needs more references]
