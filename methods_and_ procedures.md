@@ -3,6 +3,8 @@ Define a good name for your methods or procedures
 
 A good name should be the one who describe the role of the method or procedure.
 
+For those methods that doesn't return any value ("procedure"), let's name it with a verb. For example:  "calculateTax" or  "makePizza".
+
 Define a code style convention. Specially if you work with a team. 
 ------------
 
